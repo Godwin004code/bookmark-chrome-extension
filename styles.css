@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+}
+
+#bookmarks {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+}
+
+a {
+    margin: 5px 0;
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+div {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.bookmark {
+    margin-bottom: 20px;
+    padding: 10px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.link-preview {
+    display: flex;
+    flex-direction: column;
+}
+
+.link-preview img {
+    width: 32px; /* Set a specific width for favicons */
+    height: 32px; /* Set a specific height for favicons */
+    border-radius: 5px; /* Optional: round the corners */
+    margin-right: 10px; 
+}
+
+
+.link-preview h2 {
+    margin: 5px 0;
+    font-size: 1.2em;
+    color: #333;
+}
